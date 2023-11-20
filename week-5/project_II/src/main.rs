@@ -19,19 +19,19 @@ fn main()
 
     if experince >= 40.0 
     {
-      println!("Your incentive is N1_560_000.0");
+      println!("Your incentive is N1_560_000.0", input1);
     }
     else if experince >= 30.0 && experince < 40.0 
     {
-      println!("Your incentive is N1_480_000.0");
+      println!("Your incentive is N1_480_000.0", input1);
     }
     else if experince <= 28.0 
     {
-      println!("Your incentive is N1_300_000.0");
+      println!("Your incentive is N1_300_000.0", input1);
     }
     else if experince <= 0.0 
     {
-      println!("Your incentive is N100_000.0");
+      println!("Your incentive is N100_000.0", input1 );
     }
  }
 
